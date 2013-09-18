@@ -1,0 +1,194 @@
+/* ####################################################
+NOTE
+scss file for Teacher Dashboard
+###################################################
+*/
+/** Global Fonts **/
+/** Global Type Size **/
+/** Global Color **/
+/** Global Radius **/
+/** Global Lines **/
+/** Global Drop Shadow **/
+/* line 71, ../sass/teacher-dashboard.scss */
+.ya-article {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-article:before, .ya-article:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-article:after {
+  clear: both;
+}
+/* line 73, ../sass/teacher-dashboard.scss */
+.ya-article .ya-main {
+  float: left;
+  margin-left: 2.12766%;
+  width: 74.4681%;
+}
+/* line 22, ../sass/teacher-dashboard.scss */
+.ya-article .ya-main:first-child {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  /* line 73, ../sass/teacher-dashboard.scss */
+  .ya-article .ya-main {
+    float: left;
+    margin-left: 0%;
+    width: 100.00002%;
+  }
+  /* line 22, ../sass/teacher-dashboard.scss */
+  .ya-article .ya-main:first-child {
+    margin-left: 0;
+  }
+}
+/* line 82, ../sass/teacher-dashboard.scss */
+.ya-article .ya-left-sidebar {
+  float: left;
+  margin-left: 2.12766%;
+  width: 23.40426%;
+}
+/* line 22, ../sass/teacher-dashboard.scss */
+.ya-article .ya-left-sidebar:first-child {
+  margin-left: 0;
+}
+
+/* line 89, ../sass/teacher-dashboard.scss */
+.ya-my-schools {
+  padding-right: 30px;
+}
+/* line 91, ../sass/teacher-dashboard.scss */
+.ya-my-schools ul {
+  list-style: none outside none;
+  margin: 15px 0;
+}
+/* line 94, ../sass/teacher-dashboard.scss */
+.ya-my-schools ul li {
+  line-height: 25px;
+}
+/* line 98, ../sass/teacher-dashboard.scss */
+.ya-my-schools h3 {
+  border-bottom: 1px solid #d3d1c7;
+  padding-bottom: 5px;
+}
+
+/* line 104, ../sass/teacher-dashboard.scss */
+.ya-teacher-dashboard {
+  padding: 30px;
+}
+/* line 106, ../sass/teacher-dashboard.scss */
+.ya-teacher-dashboard h1 {
+  font: 36px "ProximaNova-Regular";
+  border-bottom: 1px solid #333333;
+  padding-bottom: 5px;
+}
+@media (max-width: 979px) {
+  /* line 106, ../sass/teacher-dashboard.scss */
+  .ya-teacher-dashboard h1 {
+    font-size: 30px;
+  }
+}
+/* line 114, ../sass/teacher-dashboard.scss */
+.ya-teacher-dashboard hr {
+  border-bottom: 1px solid #d3d1c7;
+}
+@media (max-width: 767px) {
+  /* line 104, ../sass/teacher-dashboard.scss */
+  .ya-teacher-dashboard {
+    padding: 15px;
+  }
+}
+
+/* line 121, ../sass/teacher-dashboard.scss */
+.ya-teacher-dashboard-action {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-teacher-dashboard-action:before, .ya-teacher-dashboard-action:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-teacher-dashboard-action:after {
+  clear: both;
+}
+@media (max-width: 767px) {
+  /* line 121, ../sass/teacher-dashboard.scss */
+  .ya-teacher-dashboard-action {
+    text-align: center;
+  }
+}
+
+/* line 128, ../sass/teacher-dashboard.scss */
+.ya-registry-marks {
+  margin: 30px 0;
+}
+/* line 130, ../sass/teacher-dashboard.scss */
+.ya-registry-marks h2 {
+  border-bottom: 1px solid #d3d1c7;
+  padding-bottom: 5px;
+}
+/* line 134, ../sass/teacher-dashboard.scss */
+.ya-registry-marks .ya-registry-mark-list {
+  width: 100%;
+  *zoom: 1;
+  margin: 22px 0;
+}
+/* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-registry-marks .ya-registry-mark-list:before, .ya-registry-marks .ya-registry-mark-list:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+.ya-registry-marks .ya-registry-mark-list:after {
+  clear: both;
+}
+/* line 137, ../sass/teacher-dashboard.scss */
+.ya-registry-marks .ya-registry-mark-list ul {
+  list-style: none outside none;
+  margin: 0;
+}
+/* line 140, ../sass/teacher-dashboard.scss */
+.ya-registry-marks .ya-registry-mark-list ul li {
+  float: left;
+  text-align: center;
+  margin-right: 30px;
+}
+@media (max-width: 430px) {
+  /* line 140, ../sass/teacher-dashboard.scss */
+  .ya-registry-marks .ya-registry-mark-list ul li {
+    margin-right: 20px;
+  }
+  /* line 146, ../sass/teacher-dashboard.scss */
+  .ya-registry-marks .ya-registry-mark-list ul li img {
+    width: 75px;
+  }
+}
+/* line 153, ../sass/teacher-dashboard.scss */
+.ya-registry-marks .ya-link {
+  margin-left: 30px;
+}
+@media (max-width: 767px) {
+  /* line 153, ../sass/teacher-dashboard.scss */
+  .ya-registry-marks .ya-link {
+    margin-left: 0;
+    *zoom: 1;
+  }
+  /* line 15, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  .ya-registry-marks .ya-link:before, .ya-registry-marks .ya-link:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  /* line 22, ../../../../../compass.app/lib/ruby/compass_extensions/bootstrap-sass-2.3.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+  .ya-registry-marks .ya-link:after {
+    clear: both;
+  }
+}

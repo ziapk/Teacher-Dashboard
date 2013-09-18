@@ -1,0 +1,166 @@
+/* ####################################################
+NOTE
+scss file for Teacher Dashboard
+###################################################
+*/
+
+@import "bootstrap-responsive";
+
+
+$gridFluidColumnWidth: 6.38298%;
+$gridFluidGutterWidth: 2.12766%;
+
+@mixin makeFluidRow() {
+	width: 100%;
+	@include clearfix();
+}
+@mixin makeFluidColumn($columns: 1, $offset: 0, $marginRate: 1) {
+	float: left;
+	margin-left: (($gridFluidColumnWidth * $offset) + ($gridFluidGutterWidth * ($offset - 1)) + ($gridFluidGutterWidth * 2)) * $marginRate;
+	width: ($gridFluidColumnWidth * $columns) + ($gridFluidGutterWidth * ($columns - 1));
+	
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+
+/** Global Fonts **/
+$Normal: 'ProximaNova-Regular';
+$Semibold: 'ProximaNova-Semibold';
+$Bold: 'ProximaNova-Bold';
+$Italic: 'ProximaNova-RegularIt';
+
+/** Global Type Size **/
+$PageHeading: 36px $Normal;
+$IntroText: 14px/20px $Normal;
+$Subheading: 20px/24px $Bold;
+$BodyText: 14px/17px $Normal;
+
+/** Global Color **/
+$Red: #96171A;
+$Gray: #5f6a72;
+$Lightgray: #D3D1C7;
+$Blue: #1E398D;
+$Orange: #F37021;
+$Green:                 #a1cc86 !default;
+
+/** Global Radius **/
+$LargeRadius: 20px;
+$SmallRadius: 4px;
+
+/** Global Lines **/
+$NormalLine: 1px solid $Lightgray;
+
+/** Global Drop Shadow **/
+$LargeShadow: 2px 3px 20px #5f6a72;
+$MediumShadow: 5px 5px 5px #c8ccce;
+$SmallShadow: 1px 1px 15px #8a9aa6;
+$TinyShadow: 0px 2px 5px #c8ccce;
+
+$margin_padding: 15px;
+$icon_font_size: 20px;
+
+
+@mixin ya-align-middle {
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ya-article {
+	@include makeFluidRow();
+	.ya-main {
+		@include makeFluidColumn(9);
+		@media (max-width: 979px) {
+			
+		}
+		@media (max-width: 767px) {
+			@include makeFluidColumn(12, 0, 0);
+		}
+	}
+	.ya-left-sidebar {
+		@include makeFluidColumn(3);
+		@media (max-width: 979px) {
+			
+		}
+	}
+}
+.ya-my-schools {
+	padding-right: $margin_padding * 2;
+	ul {
+		list-style: none outside none;
+		margin: $margin_padding 0;
+		li {
+			line-height: 25px;
+		}
+	}
+	h3 {
+		border-bottom: $NormalLine;
+		padding-bottom: 5px;
+	}
+}
+
+.ya-teacher-dashboard {
+	padding: $margin_padding * 2;
+	h1 {
+		font: $PageHeading;
+		border-bottom: 1px solid #333;;
+		padding-bottom: 5px;
+		@media (max-width: 979px) {
+			font-size: 30px;
+		}
+	}
+	hr {
+		border-bottom: $NormalLine;
+	}
+	@media (max-width: 767px) {
+		padding: $margin_padding;
+	}		
+}
+.ya-teacher-dashboard-action {
+	@include makeFluidRow();
+	@media (max-width: 767px) {
+		text-align: center;
+	}		
+}	
+
+.ya-registry-marks {
+	margin: $margin_padding * 2 0;
+	h2 {
+		border-bottom: $NormalLine;
+		padding-bottom: 5px;
+	}
+	.ya-registry-mark-list {
+		@include makeFluidRow();
+		margin: 22px  0;
+		ul {
+			list-style: none outside none;
+			margin: 0;
+			li {
+				float: left;
+				text-align: center;
+				margin-right: $margin_padding * 2;
+				@media (max-width: 430px) {
+					margin-right: 20px;
+					img {
+						width: 75px;
+					}
+				}		
+			}
+		}
+	}
+	.ya-link {
+		margin-left: $margin_padding * 2;
+		@media (max-width: 767px) {
+			margin-left: 0;
+			@include clearfix();
+		}		
+	}	
+}
+
+
+
+
+
+
