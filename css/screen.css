@@ -11,12 +11,10 @@ Created by Jeff Baker
 */
 /* LEGACY CODE - TO CLEAN OUT */
 /* DEFAULTS ###################################### */
-/* line 28, ../sass/partials/_defaults.scss */
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-/* line 32, ../sass/partials/_defaults.scss */
 input {
   box-sizing: content-box;
 }
@@ -64,7 +62,6 @@ input {
 	font-weight: normal;
 	font-style: normal;
 }*/
-/* line 64, ../sass/partials/_fonts.scss */
 [data-icon]:before {
   font-family: 'YogaAlliance';
   content: attr(data-icon);
@@ -77,7 +74,6 @@ input {
   display: inline-block;
 }
 
-/* line 78, ../sass/partials/_fonts.scss */
 .divider:before {
   content: "\003E";
   speak: none;
@@ -89,7 +85,6 @@ input {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 128, ../sass/partials/_defaults.scss */
 section.collapse {
   padding: 0 !important;
   box-shadow: none;
@@ -100,7 +95,6 @@ section.collapse {
   border: none;
 }
 
-/* line 139, ../sass/partials/_defaults.scss */
 body {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -109,7 +103,6 @@ body {
   color: #4e453e;
 }
 
-/* line 149, ../sass/partials/_defaults.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-family: inherit;
@@ -118,7 +111,6 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 157, ../sass/partials/_defaults.scss */
 h1 {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -127,7 +119,6 @@ h1 {
   color: #b4341d;
 }
 
-/* line 163, ../sass/partials/_defaults.scss */
 h2 {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
@@ -135,7 +126,6 @@ h2 {
   font-size: 28px;
 }
 
-/* line 168, ../sass/partials/_defaults.scss */
 h3, legend {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
@@ -143,7 +133,6 @@ h3, legend {
   font-size: 20px;
 }
 
-/* line 173, ../sass/partials/_defaults.scss */
 h4 {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
@@ -151,7 +140,6 @@ h4 {
   font-size: 16px;
 }
 
-/* line 178, ../sass/partials/_defaults.scss */
 h5 {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
@@ -160,7 +148,6 @@ h5 {
   color: #888888;
 }
 
-/* line 184, ../sass/partials/_defaults.scss */
 h6 {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -169,25 +156,21 @@ h6 {
   color: #afa58f;
 }
 
-/* line 190, ../sass/partials/_defaults.scss */
 a {
   color: #003e8c;
   font-size: 14px;
 }
 
-/* line 195, ../sass/partials/_defaults.scss */
 strong {
   font-weight: 700px;
 }
 
-/* line 199, ../sass/partials/_defaults.scss */
 hr {
   margin: 20px 0;
   border-top: none;
   border-bottom: 1px solid #afa58f;
 }
 
-/* line 205, ../sass/partials/_defaults.scss */
 blockquote p {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -196,12 +179,10 @@ blockquote p {
   line-height: 1.25;
 }
 
-/* line 210, ../sass/partials/_defaults.scss */
 .muted {
   color: #afa58f;
 }
 
-/* line 222, ../sass/partials/_defaults.scss */
 .alert {
   padding-right: 3em;
   position: relative;
@@ -209,7 +190,6 @@ blockquote p {
   border: 1px solid #e9b422;
 }
 
-/* line 229, ../sass/partials/_defaults.scss */
 .alert span {
   float: right;
   font-size: 20px;
@@ -217,50 +197,42 @@ blockquote p {
   right: -35px;
 }
 
-/* line 235, ../sass/partials/_defaults.scss */
 .alert-error {
   background-color: #ffebe8;
   border: 1px solid #b4341d;
 }
 
-/* line 239, ../sass/partials/_defaults.scss */
 .alert-info {
   background-color: #bedeff;
   border: 1px solid #003e8c;
 }
 
-/* line 243, ../sass/partials/_defaults.scss */
 .alert-warning {
   background-color: #fcf8e3;
   border: 1px solid #e9b422;
 }
 
-/* line 247, ../sass/partials/_defaults.scss */
 .ya-badge-yellow, .ya-badge-green, .ya-badge-red {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 250, ../sass/partials/_defaults.scss */
 .ya-badge-yellow {
   border-color: #e7a241;
   color: #e7a241;
 }
 
-/* line 254, ../sass/partials/_defaults.scss */
 .ya-badge-green {
   border-color: #39874c;
   color: #39874c;
 }
 
-/* line 258, ../sass/partials/_defaults.scss */
 .ya-badge-red {
   border-color: #b4341d;
   color: #b4341d;
 }
 
-/* line 265, ../sass/partials/_defaults.scss */
 .label {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -271,30 +243,25 @@ blockquote p {
   padding: 3px 10px;
 }
 
-/* line 272, ../sass/partials/_defaults.scss */
 .ya-light-label {
   background-color: #f3efeb;
 }
 
-/* line 281, ../sass/partials/_defaults.scss */
 .ya-context-menu {
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
   margin-bottom: 30px;
 }
-/* line 291, ../sass/partials/_defaults.scss */
 .ya-context-menu ul {
   padding: 0;
 }
-/* line 294, ../sass/partials/_defaults.scss */
 .ya-context-menu li span[data-icon] {
   margin-right: 10px;
   position-top: 32px;
   font-size: 20px;
   color: #888888;
 }
-/* line 300, ../sass/partials/_defaults.scss */
 .ya-context-menu li a {
   font-size: 15px;
   display: block;
@@ -303,19 +270,16 @@ blockquote p {
   padding: 6px 14px;
   border: 1px solid #d6cdbf;
 }
-/* line 309, ../sass/partials/_defaults.scss */
 .ya-context-menu li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
-/* line 314, ../sass/partials/_defaults.scss */
 .ya-context-menu li:last-child > a {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
 }
-/* line 319, ../sass/partials/_defaults.scss */
 .ya-context-menu .active > a {
   background-color: #faf6f1;
   color: #4e453e;
@@ -329,48 +293,40 @@ blockquote p {
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1), inset -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 350, ../sass/partials/_defaults.scss */
 label {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 361, ../sass/partials/_defaults.scss */
 .progress {
   margin: 10px 0;
 }
 
-/* line 365, ../sass/partials/_defaults.scss */
 .breadcrumb {
   border: 1px solid #d6cdbf;
   border-radius: 6px;
 }
 
-/* line 368, ../sass/partials/_defaults.scss */
 label.radio {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 371, ../sass/partials/_defaults.scss */
 .btn {
   margin: 10px auto;
 }
 
-/* line 377, ../sass/partials/_defaults.scss */
 .ya-total {
   color: #e7a241;
 }
 
-/* line 381, ../sass/partials/_defaults.scss */
 table.table .ya-total {
   color: #e7a241;
   font-size: 16px;
 }
 
-/* line 2, ../sass/partials/_login.scss */
 .ya-loginbox {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -393,11 +349,9 @@ table.table .ya-total {
   -ms-filter: "progid:DXImageTransform.Microsoft.Glow(Color=#ff9b1913,Strength=8)";
   filter: progid:DXImageTransform.Microsoft.Glow(Color=#ff9b1913,Strength=8);
 }
-/* line 16, ../sass/partials/_login.scss */
 .ya-loginbox .ya-logo {
   width: 170px;
 }
-/* line 19, ../sass/partials/_login.scss */
 .ya-loginbox .ya-tagline {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -407,15 +361,12 @@ table.table .ya-total {
   margin-bottom: 10px;
   margin-left: 67px;
 }
-/* line 27, ../sass/partials/_login.scss */
 .ya-loginbox input[type="text"], .ya-loginbox input[type="password"] {
   width: 180px;
 }
-/* line 31, ../sass/partials/_login.scss */
 .ya-loginbox fieldset {
   padding-top: 10px;
 }
-/* line 35, ../sass/partials/_login.scss */
 .ya-loginbox .alert-error {
   padding: 10px;
   border: 1px solid #b4341d;
@@ -424,25 +375,21 @@ table.table .ya-total {
   border-left: 0;
   border-right: 0;
 }
-/* line 44, ../sass/partials/_login.scss */
 .ya-loginbox .btn {
   margin: 10px 0;
 }
 
-/* line 3, ../sass/partials/_buttons.scss */
 .btn {
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 9, ../sass/partials/_buttons.scss */
 .btn-large {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 15, ../sass/partials/_buttons.scss */
 .btn span {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
   opacity: 0.85;
@@ -452,7 +399,6 @@ table.table .ya-total {
   top: 2px;
 }
 
-/* line 23, ../sass/partials/_buttons.scss */
 .btn-large span {
   font-size: 32px;
   margin-right: 15px;
@@ -462,14 +408,12 @@ table.table .ya-total {
   top: 8px;
 }
 
-/* line 31, ../sass/partials/_buttons.scss */
 .ya-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 38, ../sass/partials/_buttons.scss */
 .btn-warning {
   color: #FFFFFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -487,7 +431,6 @@ table.table .ya-total {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-/* line 58, ../sass/partials/_buttons.scss */
 .btn-warning:hover,
 .btn-warning:active,
 .btn-warning.active,
@@ -497,7 +440,6 @@ table.table .ya-total {
   *background-color: #003bb3;
 }
 
-/* line 63, ../sass/partials/_buttons.scss */
 .btn-danger {
   color: #FFFFFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -515,7 +457,6 @@ table.table .ya-total {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-/* line 83, ../sass/partials/_buttons.scss */
 .btn-danger:hover,
 .btn-danger:active,
 .btn-danger.active,
@@ -526,7 +467,6 @@ table.table .ya-total {
   *background-color: #003bb3;
 }
 
-/* line 89, ../sass/partials/_buttons.scss */
 .btn-success {
   color: #FFFFFF;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -544,7 +484,6 @@ table.table .ya-total {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-/* line 109, ../sass/partials/_buttons.scss */
 .btn-success:hover,
 .btn-success:active,
 .btn-success.active,
@@ -555,7 +494,6 @@ table.table .ya-total {
   *background-color: #003bb3;
 }
 
-/* line 6, ../sass/partials/_tables.scss */
 .table-striped {
   border: 1px solid #edecea;
   border-collapse: separate;
@@ -565,32 +503,26 @@ table.table .ya-total {
   border-radius: 6px;
 }
 
-/* line 15, ../sass/partials/_tables.scss */
 td.ya-right-border {
   border-right: 1px solid #edecea;
 }
 
-/* line 19, ../sass/partials/_tables.scss */
 .ya-striped, .ya-row-striped {
   background-color: #faf6f1;
 }
 
-/* line 23, ../sass/partials/_tables.scss */
 .ya-row-red {
   background-color: #ffebe8;
 }
 
-/* line 26, ../sass/partials/_tables.scss */
 .ya-row-yellow {
   background-color: #fcf8e3;
 }
 
-/* line 29, ../sass/partials/_tables.scss */
 .ya-row-green {
   background-color: #daf2d7;
 }
 
-/* line 36, ../sass/partials/_tables.scss */
 .ya-label {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -598,13 +530,11 @@ td.ya-right-border {
   font-size: 14px;
 }
 
-/* line 40, ../sass/partials/_tables.scss */
 td.ya-label {
   padding-right: 10px;
   vertical-align: top;
 }
 
-/* line 45, ../sass/partials/_tables.scss */
 .ya-value {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
@@ -612,7 +542,6 @@ td.ya-label {
   font-size: 14px;
 }
 
-/* line 50, ../sass/partials/_tables.scss */
 .ya-total {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
@@ -621,7 +550,6 @@ td.ya-label {
   font-size: 16px;
 }
 
-/* line 36, ../sass/screen.scss */
 .ya-widget {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -635,14 +563,12 @@ td.ya-label {
   margin-bottom: 30px;
   padding-top: 0;
 }
-/* line 41, ../sass/screen.scss */
 .ya-widget h3 {
   border-bottom: 1px solid #d6cdbf;
   margin-bottom: 15px;
   padding-bottom: 5px;
 }
 
-/* line 48, ../sass/screen.scss */
 .ya-edit-box {
   border: 1px solid #d6cdbf;
   border-radius: 6px;
@@ -665,42 +591,33 @@ td.ya-label {
   padding: 20px;
   margin-bottom: 20px;
 }
-/* line 57, ../sass/screen.scss */
 .ya-edit-box h3 {
   margin-top: 0;
 }
-/* line 61, ../sass/screen.scss */
 .ya-edit-box label {
   padding-left: 4px;
   margin-bottom: 2px;
 }
-/* line 66, ../sass/screen.scss */
 .ya-edit-box label.radio {
   font-size: 12px;
 }
-/* line 68, ../sass/screen.scss */
 .ya-edit-box label.radio input[type="radio"] {
   margin: 2px 5px 0 0;
 }
-/* line 74, ../sass/screen.scss */
 .ya-edit-box label.checkbox input[type="checkbox"] {
   margin: 3px 7px 0 0;
 }
-/* line 78, ../sass/screen.scss */
 .ya-edit-box .row-fluid {
   margin-bottom: 10px;
 }
-/* line 81, ../sass/screen.scss */
 .ya-edit-box input, .ya-edit-box select {
   margin-bottom: 0;
 }
-/* line 84, ../sass/screen.scss */
 .ya-edit-box .btn {
   margin-top: 20px;
   margin-bottom: 0;
 }
 
-/* line 91, ../sass/screen.scss */
 .ya-edit-button {
   width: 30px;
   height: 30px;
@@ -714,35 +631,29 @@ td.ya-label {
   border: 1px solid white;
   border-radius: 3px;
 }
-/* line 103, ../sass/screen.scss */
 .ya-edit-button span[data-icon] {
   margin: 0;
 }
-/* line 106, ../sass/screen.scss */
 .ya-edit-button:hover, .ya-edit-button:focus {
   background-color: #f2d37f;
   color: white;
 }
-/* line 110, ../sass/screen.scss */
 .ya-edit-button:active {
   color: #e7a241;
   border-color: #e7a241;
 }
 
-/* line 117, ../sass/screen.scss */
 .ya-subtitle {
   font-family: ProximaNova-RegularIt, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 121, ../sass/screen.scss */
 .ya-editable-region {
   border: 1px dotted #edecea;
   border-radius: 6px;
   position: relative;
 }
-/* line 125, ../sass/screen.scss */
 .ya-editable-region:hover {
   background-color: #e6e6e6;
   border: 1px solid #c2b4a0;
@@ -753,7 +664,6 @@ td.ya-label {
   transition: background-color 200ms linear;
 }
 
-/* line 138, ../sass/screen.scss */
 .ya-control-box {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -769,33 +679,27 @@ td.ya-label {
   border-radius: 6px;
   padding: 18px 18px;
 }
-/* line 145, ../sass/screen.scss */
 .ya-control-box h4 {
   margin-top: 5px;
 }
-/* line 148, ../sass/screen.scss */
 .ya-control-box h3 {
   border: none;
 }
 
-/* line 155, ../sass/screen.scss */
 .ya-help {
   color: #e7a241;
 }
 
-/* line 158, ../sass/screen.scss */
 sup a.ya-help {
   font-size: .6em;
 }
 
-/* line 164, ../sass/screen.scss */
 .ya-link {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 168, ../sass/screen.scss */
 .ya-action {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
@@ -803,44 +707,36 @@ sup a.ya-help {
   color: #b4341d;
 }
 
-/* line 175, ../sass/screen.scss */
 .ya-tagline {
   color: #b4341d;
   font-size: 28px;
 }
 
-/* line 183, ../sass/screen.scss */
 span[data-icon] {
   margin-right: .4em;
 }
 
-/* line 188, ../sass/screen.scss */
 span[data-icon="E"], span[data-icon="C"] {
   font-size: 120%;
 }
 
-/* line 193, ../sass/screen.scss */
 .ya-twitter {
   color: #00AEF3;
 }
 
-/* line 196, ../sass/screen.scss */
 .ya-facebook {
   color: #24589E;
 }
 
-/* line 199, ../sass/screen.scss */
 .ya-pinterest {
   color: #CF1912;
 }
 
-/* line 208, ../sass/screen.scss */
 .ya-small-profile .ya-edit-button, .ya-profile .ya-edit-button {
   bottom: 5px;
   right: 5px;
 }
 
-/* line 213, ../sass/screen.scss */
 .ya-teaching-hours {
   background-color: #c2b4a0;
   border: 1px solid #4e453e;
@@ -848,7 +744,6 @@ span[data-icon="E"], span[data-icon="C"] {
   padding: 20px;
 }
 
-/* line 221, ../sass/screen.scss */
 .ya-yoga-types li {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
@@ -856,105 +751,86 @@ span[data-icon="E"], span[data-icon="C"] {
   font-size: 14px;
 }
 
-/* line 229, ../sass/screen.scss */
 .ya-profile address {
   margin: 0;
 }
-/* line 232, ../sass/screen.scss */
 .ya-profile .ya-social-media-icons span {
   font-size: 30px;
   margin-right: 10px;
 }
-/* line 236, ../sass/screen.scss */
 .ya-profile p {
   margin-top: 15px;
 }
 
-/* line 242, ../sass/screen.scss */
 .ya-training-experience h4 {
   margin: 4px 0 0 0;
 }
 
-/* line 247, ../sass/screen.scss */
 .ya-awards ul {
   list-style-type: none;
   margin: 0 0 20px 0;
   padding: 0;
 }
-/* line 251, ../sass/screen.scss */
 .ya-awards ul li {
   margin: 0 0 10px 0;
   padding: 0;
 }
-/* line 256, ../sass/screen.scss */
 .ya-awards a.ya-link span[data-icon] {
   color: #888888;
   font-size: 32px;
   float: left;
   padding-bottom: 4px;
 }
-/* line 262, ../sass/screen.scss */
 .ya-awards p {
   clear: both;
 }
 
-/* line 268, ../sass/screen.scss */
 .ya-i-teach label.checkbox {
   margin: 6px 0 6px 6px;
 }
 
-/* line 278, ../sass/screen.scss */
 span[data-icon] {
   margin-right: .4em;
 }
 
-/* line 282, ../sass/screen.scss */
 .ya-section {
   margin-bottom: 30px;
 }
-/* line 285, ../sass/screen.scss */
 .ya-section h2 {
   border-bottom: 1px solid #d6cdbf;
   margin-bottom: 20px;
 }
 
-/* line 292, ../sass/screen.scss */
 .ya-designation-icon {
   font-size: 150px;
   color: #6B6B6B;
   text-align: center;
 }
 
-/* line 301, ../sass/screen.scss */
 .ya-application-details h2 {
   border-bottom: none;
 }
 
-/* line 306, ../sass/screen.scss */
 .ya-school-track-info {
   border: 1px solid #d6cdbf;
   border-radius: 6px;
   padding: 10px 20px;
 }
 
-/* line 313, ../sass/screen.scss */
 .ya-abbreviation-key dd {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 316, ../sass/screen.scss */
 .ya-review-queue-notes {
   background-color: #fbfbfb;
 }
 
-/* line 319, ../sass/screen.scss */
 .ya-review-queue-notes img {
   border-radius: 6px;
 }
 
-/* line 322, ../sass/screen.scss */
 .ya-review-queue-notes label {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
@@ -962,33 +838,28 @@ span[data-icon] {
   font-size: 14px;
 }
 
-/* line 326, ../sass/screen.scss */
 .ya-review-queue-notes input[type='checkbox'] {
   height: 16px;
   width: 16px;
 }
 
-/* line 330, ../sass/screen.scss */
 .ya-client-note {
   border: 2px solid #4e453e;
   border-radius: 6px;
 }
 
-/* line 334, ../sass/screen.scss */
 .ya-staff-note, .ya-internal-note, .ya-client-note {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 337, ../sass/screen.scss */
 .ya-signature h5 {
   font-family: ProximaNova-Semibold, arial, sans-sarif;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 340, ../sass/screen.scss */
 .ya-signature p {
   font-family: ProximaNova-Regular, arial, sans-sarif;
   font-weight: normal;
@@ -996,11 +867,9 @@ span[data-icon] {
   color: #afa58f;
 }
 
-/* line 345, ../sass/screen.scss */
 .ya-internal-note {
   background-color: #fcf8e3;
 }
-/* line 347, ../sass/screen.scss */
 .ya-internal-note h4 {
   font-family: ProximaNova-Bold, arial, sans-sarif;
   font-weight: normal;
