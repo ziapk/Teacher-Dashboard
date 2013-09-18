@@ -102,7 +102,6 @@ $icon_font_size: 20px;
 }
 
 .ya-teacher-dashboard {
-	padding: $margin_padding * 2;
 	h1 {
 		font: $PageHeading;
 		border-bottom: 1px solid #333;;
@@ -137,14 +136,23 @@ $icon_font_size: 20px;
 		ul {
 			list-style: none outside none;
 			margin: 0;
+			@media (max-width: 767px) {
+				text-align: center;
+			}
 			li {
 				float: left;
 				text-align: center;
 				margin-right: $margin_padding * 2;
-				@media (max-width: 430px) {
+				@media (max-width: 767px) {
+					float:none;
+					display:inline-block;
 					margin-right: 20px;
-					img {
-						width: 75px;
+					margin-bottom:20px;
+					img{
+						margin-bottom:5px;
+					}
+					img + br{
+						display:none;
 					}
 				}		
 			}
@@ -160,7 +168,11 @@ $icon_font_size: 20px;
 }
 
 
-
+@media (max-width: 767px) {
+	body{
+		padding:0;
+	}
+}
 
 
 
